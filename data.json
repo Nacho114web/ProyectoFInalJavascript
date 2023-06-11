@@ -1,0 +1,194 @@
+[
+    {
+        "id": 10,
+        "titulo": "Numero zero",
+        "autor": "Umberto Eco",
+        "precio": 1200,
+        "idioma": "italiano",
+        "tapa": "./images/tapas_libros/numero_zero.jpg"
+    },
+    {
+        "id": 11,
+        "titulo": "L'ospite",
+        "autor": "Giorgio Faletti",
+        "precio": 895,
+        "idioma": "italiano",
+        "tapa": "./images/tapas_libros/lospite.jpg"
+    },
+    {
+        "id": 12,
+        "titulo": "La caccia al tesoro",
+        "autor": "Andrea Camilleri",
+        "precio": 1125,
+        "idioma": "italiano",
+        "tapa": "./images/tapas_libros/la_caccia_al_tesoro.jpg"
+    },
+    {
+        "id": 13,
+        "titulo": "Il manipolatore",
+        "autor": "Michael Robotham",
+        "precio": 1100,
+        "idioma": "italiano",
+        "tapa": "./images/tapas_libros/il_manipolatore.jpg"
+    },
+    {
+        "id": 14,
+        "titulo": "L'isola del giorno prima",
+        "autor": "Umberto Eco",
+        "precio": 840,
+        "idioma": "italiano",
+        "tapa": "./images/tapas_libros/isola_del_giorno_prima.jpg"
+    },
+    {
+        "id": 15,
+        "titulo": "La muerte del comendador",
+        "autor": "Haruki Murakami",
+        "precio": 2013,
+        "idioma": "español",
+        "tapa": "./images/tapas_libros/la_muerte_del_comendador.jpg"
+    },
+    {
+        "id": 16,
+        "titulo": "Los crímenes de Alicia",
+        "autor": "Guillermo Martínez",
+        "precio": 965,
+        "idioma": "español",
+        "tapa": "./images/tapas_libros/crimenes_de_alicia.jpg"
+    },
+    {
+        "id": 17,
+        "titulo": "La trilogía de Nueva York",
+        "autor": "Paul Auster",
+        "precio": 1500,
+        "idioma": "español",
+        "tapa": "./images/tapas_libros/trilogia_de_nueva_york.jpg"
+    },
+    {
+        "id": 18,
+        "titulo": "Doña Flor y sus dos maridos",
+        "autor": "Jorge Amado",
+        "precio": 920,
+        "idioma": "español",
+        "tapa": "./images/tapas_libros/dona_flor_y_sus_dos.jpg"
+    },
+    {
+        "id": 19,
+        "titulo": "Sin rastro",
+        "autor": "Michael Robotham",
+        "precio": 1400,
+        "idioma": "español",
+        "tapa": "./images/tapas_libros/sin_rastro.jpg"
+    },
+    {
+        "id": 20,
+        "titulo": "Single and Single",
+        "autor": "John Le Carre",
+        "precio": 1325,
+        "idioma": "inglés",
+        "tapa": "./images/tapas_libros/single_and_single.jpg"
+    },
+    {
+        "id": 21,
+        "titulo": "Dune",
+        "autor": "Frank Herbert",
+        "precio": 2400,
+        "idioma": "inglés",
+        "tapa": "./images/tapas_libros/dune.jpeg"
+    },
+    {
+        "id": 22,
+        "titulo": "It",
+        "autor": "Stephen King",
+        "precio": 2560,
+        "idioma": "inglés",
+        "tapa": "./images/tapas_libros/it.jpg"
+    },
+    {
+        "id": 23,
+        "titulo": "Dreamcatcher",
+        "autor": "Stephen King",
+        "precio": 2500,
+        "idioma": "inglés",
+        "tapa": "./images/tapas_libros/dreamcatcher.jpg"
+    },
+    {
+        "id": 24,
+        "titulo": "Carrie",
+        "autor": "Stephen King",
+        "precio": 1850,
+        "idioma": "inglés",
+        "tapa": "./images/tapas_libros/carrie.jpeg"
+    },
+    {
+        "id": 25,
+        "titulo": "Non è terrestrte",
+        "autor": "Peter Kolosimo",
+        "precio": 900,
+        "idioma": "italiano",
+        "tapa": "./images/tapas_libros/non_e_terrestre.jpg"
+    },
+    {
+        "id": 26,
+        "titulo": "Brava ragazza, cattiva ragazza",
+        "autor": "Michael Robotham",
+        "precio": 1895,
+        "idioma": "italiano",
+        "tapa": "./images/tapas_libros/brava_ragazza.jpg"
+    },
+    {
+        "id": 27,
+        "titulo": "La piuma",
+        "autor": "Giorgio Faletti",
+        "precio": 1150,
+        "idioma": "italiano",
+        "tapa": "./images/tapas_libros/la_piuma.jpg"
+    },
+    {
+        "id": 28,
+        "titulo": "El aviso",
+        "autor": "Paul Pen",
+        "precio": 1450,
+        "idioma": "español",
+        "tapa": "./images/tapas_libros/el_aviso.jpg"
+    },
+    {
+        "id": 29,
+        "titulo": "Pedro Páramo",
+        "autor": "Juan Rulfo",
+        "precio": 990,
+        "idioma": "español",
+        "tapa": "./images/tapas_libros/pedro_paramo.jpg"
+    },
+    {
+        "id": 30,
+        "titulo": "El infierno digital",
+        "autor": "Philip Kerr",
+        "precio": 1435,
+        "idioma": "español",
+        "tapa": "./images/tapas_libros/infierno_digital.jpg"
+    },
+    {
+        "id": 31,
+        "titulo": "The Naturally Clean Home",
+        "autor": "Karyn Siegel-Maier",
+        "precio": 2125,
+        "idioma": "inglés",
+        "tapa": "./images/tapas_libros/naturally_clean_home.jpg"
+    },
+    {
+        "id": 32,
+        "titulo": "Will Grayson, Will Grayson",
+        "autor": "John Green",
+        "precio": 1300,
+        "idioma": "inglés",
+        "tapa": "./images/tapas_libros/will_grayson.jpg"
+    },
+    {
+        "id": 33,
+        "titulo": "The Tommyknockers",
+        "autor": "Stephen King",
+        "precio": 2560,
+        "idioma": "inglés",
+        "tapa": "./images/tapas_libros/tommyknockers.jpeg"
+    }
+  ]

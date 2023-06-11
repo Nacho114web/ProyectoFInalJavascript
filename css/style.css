@@ -1,0 +1,365 @@
+/*----------estilos globales---------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/*----------estilos header----------*/
+.contenedorFlexHeader {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #dc8099;
+}
+
+.contenedorFlexHeader img {
+  align-self: center;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: bisque;
+}
+
+.parrafoMenu {
+  background-color: bisque;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  text-align: center;
+  width: 25vw;
+  position: fixed;
+  top: 80px;
+  right: 100px;
+  z-index: 100;
+  font-size: 1.2rem;
+  padding: 8px;
+}
+
+#barraNaveg,
+.container-fluid,
+.container {
+  background-color: #dc8099;  
+}
+
+/*----------estilos body----------*/
+.button {
+  background-color: #5f0db8;
+  border-radius: 5px;
+  color: white;
+  width: 90px;
+  border-style: none;
+}
+
+.barraBuscador {
+  width: 60%;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.contenedorGrid {
+  background-color: #d1abb5;
+  min-height: 90vh;
+  padding: 70px;
+  display: grid;
+  grid-template-areas:
+    "titulo titulo titulo titulo"
+    ". busqueda busqueda busqueda"
+    "filtros catalogo catalogo catalogo"
+    "filtros catalogo catalogo catalogo"
+    "filtros catalogo catalogo catalogo";
+  grid-template-columns: 20% auto auto auto;
+}
+
+#titulo {
+  grid-area: titulo;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#titulo span {
+  font-size: 1.5rem;
+}
+
+#formularioBuscar {
+  padding: 20px 0px;
+  grid-area: busqueda;
+}
+
+#formularioFiltrar {
+  padding-right: 20px;
+  grid-area: filtros;
+}
+
+#formularioFiltrar input {
+  border-style: none;
+  border-radius: 5px;
+}
+
+#catalogo {
+  background-color: white;
+  grid-area: catalogo;
+}
+
+.filtroIdioma {
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-width: thin;
+  border-bottom: none;
+}
+
+.filtroIdioma p {
+  text-decoration: underline;
+  margin: auto;
+  padding: 5px;
+}
+
+.filtroIdioma .button {
+  margin-bottom: 5px;
+  position: relative;
+  left: 25%;
+}
+
+.filtroPrecio {
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-width: thin;
+  border-bottom: none;
+}
+
+.filtroPrecio p {
+  text-decoration: underline;
+  margin: auto;
+  padding: 5px;
+}
+
+.filtroPrecio .button {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+  left: 25%;
+}
+
+/* clases para aplicar a las cards creadas en JS para mostrar libros*/
+.cardLibros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:15px;
+}
+
+.cardTitulo {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.cardPrecio{
+  font-weight: bold;
+}
+
+.tapa {
+  width: 50%;
+}
+
+/*clases para aplicar a elementos creados para mostrar carrito*/
+.carrito {
+  position: fixed;
+  top: 75px;
+  right: 27px;
+  width:30%;
+  background-color: wheat;
+  border: 1px solid black;
+  padding: 5px;  
+}
+
+.carrito img {
+  height: 80%; 
+}
+
+.libroCarrito {
+height: 70px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.libroCarrito .tituloAutorCarrito{
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;  
+}
+
+.libroCarrito .button {
+  width: 70px;
+  font-size: 0.8rem;
+}
+
+#botonCompra {
+  font-size: 1.1rem;
+  position: absolute;
+  bottom: 18px;
+  right: 45px;
+  background-color: #dc8099;
+  width: 30%;
+  color: black;
+  font-weight: bold;
+  
+  
+
+}
+/*------------esstilos formulario datos de pago---------*/
+.contenedorFormulario {
+  position: fixed;
+  top:15px;
+  left:25%;
+  width: 50vw;
+  border-radius: 10px;
+  background-color: #d1abb5;
+  border: 3px solid black;
+  border-radius: 10px;  
+}
+
+.oculto {
+  display: none;
+}
+
+.contenedorFormulario h2 {
+  text-align: center;  
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0px; 
+}
+
+.tarjetaCredito img{
+  width: 20%;
+  grid-area: icono;
+}
+
+.tarjetaCredito p {
+  margin:0;
+}
+
+.tarjetaCredito > p {
+  align-self: center;
+  grid-area: titulo;
+  font-size: 1.2rem;  
+}
+
+#nroTarj {
+  grid-area: nro;
+}
+
+#titTarj {
+grid-area: tit;
+}
+
+#venTarj {
+  grid-area: ven;
+}
+
+#codTarj {
+  grid-area: cod;
+}
+.tarjetaCredito {
+  display: grid;
+ grid-template-areas: "icono titulo"
+                      "nro nro"
+                      "tit tit"
+                      "ven cod";
+  align-self: center;
+  width: 70%;  
+  background-color: #f3b404;
+  border-radius: 15px;
+  padding: 14px;
+  margin: 13px 0px; 
+}
+
+.inputTarjeta {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+  padding: 5px;
+  width: 65%;
+}
+
+.inputDatos {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+  padding: 5px;
+  width: 90%;
+}
+
+.botonesFormulario{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.botonesFormulario .button { 
+  font-size: 1rem;
+  padding: 5px;
+}
+
+#botonCancelar {
+  background-color: #d1abb5;
+  color: black
+}
+
+/*----------estilos footer----------*/
+.piePagina {
+  background-color: #d53c3c;
+  height: 70px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.piePagina p {
+  align-self: flex-end;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.redesSociales {
+  color: white;
+  flex-grow: 2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.redesSociales li {
+  padding: 0px 10px;
+}
+
+.iconRedes {
+  height: 30px;
+  width: 30px;
+}
